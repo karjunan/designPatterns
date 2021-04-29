@@ -8,7 +8,6 @@ public class FileCloseCommand implements Command {
         this.textFile = textFile;
     }
 
-    @Override
     public void execute() {
         textFile.fileClose();
     }
